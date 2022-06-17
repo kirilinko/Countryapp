@@ -1,0 +1,18 @@
+
+.bg-blue-dark{
+        background:hsl(207, 26%, 17%)!important;
+}
+
+.input-blue-dark{
+        background:hsl(209, 23%, 22%);
+        border-color:hsl(209, 23%, 22%);
+        color:white;
+
+}
+
+.input-blue-dark:focus{
+     border-color: hsl(209, 23%, 22%);
+     background: hsl(209, 23%, 22%);
+     color:white;
+     box-shadow: none;
+}
