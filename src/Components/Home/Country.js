@@ -9,11 +9,15 @@ class Country extends React.Component{
 
     render(){
     	return(<div> 
-              <div className="card text-white" style={{width:"14rem", background:"hsl(209, 23%, 22%)", borderColor:"hsl(209, 23%, 22%)"}}>
+              <div className="card text-white img-country shadow-effet" >
   <img src={image} className="card-img-top" width="1px" alt="..."/>
   <div className="card-body" >
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 className="card-title font-800">Germany</h5>
+    <div className="card-text font-14">
+      <span className="font-14b">Population:</span> 81,985,896 <br/>
+      <span className="font-14b">Region:</span> Europe <br/>
+      <span className="font-14b">Capital:</span> Berlin <br/>
+    </div>
      
   </div>
 </div>

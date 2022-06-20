@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+.font-body{
+        font-family:'Nunito Sans';
+}
+
+.font-14{
+        font-size: 14px;
+        font-weight: 300;
+}
+
+.font-14b{
+        font-size: 14px;
+        font-weight: 600;
+}
+
+
+.font-16{
+        font-size: 16px;
+        font-weight: 300;
+}
+
+.font-16b{
+        font-size: 16px;
+        font-weight: 600;
+}
+
+.font-800{
+        font-weight: 800;
+}
+
+.bg-blue-dark{
+     background:hsl(207, 26%, 17%)!important;
+}
+.bg-silver-dark{
+     background:hsl(209, 23%, 22%)!important;
+}
+
+.input-blue-dark{
+     background:hsl(209, 23%, 22%); 
+     border-color:hsl(209, 23%, 22%);
+     color:white;
+}
+
+.btn-dark-silver{
+     background:hsl(209, 23%, 22%);
+     borderColor:hsl(209, 23%, 22%);
+     color:white!important;
+     padding-right: 30px;
+     padding-left: 30px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+}
+
+.input-blue-dark:focus{
+     border-color: hsl(209, 23%, 22%);
+     background: hsl(209, 23%, 22%);
+     color:white;
+     box-shadow: none;
+}
+
+.border-contry{
+     margin-right:2%;
+     width:100px;
+     border-radius:2;
+}
+
+.shadow-effet {
+     box-shadow:0 0 10px rgb(20, 29, 36);
+}
+
+.spacing-m4{
+     margin-right: 4%;
+}
+
+.img-country{
+     width:14rem; 
+     background:hsl(209, 23%, 22%);
+     border-color:hsl(209, 23%, 22%);
+}

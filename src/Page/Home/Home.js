@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar/Navbar.js';
 import Country from '../../Components/Home/Country.js'; 
-import  './Home.css'; 
+import  '../../Ressources/Style.css'; 
 class Home extends React.Component{
 
     constructor(props){
@@ -9,11 +9,11 @@ class Home extends React.Component{
     }
 
     render(){
-    	return(<div> 
+    	return(<div className="bg-blue-dark pb-4 font-body"> 
             <Navbar/>
-             <div className="pt-4 bg-blue-dark" >
-                <div className="container" >
-                    <div className="row text-white mb-4">
+             <div className="pt-4 pb-4" >
+                <div className="container pb-4" >
+                    <div className="row text-white mb-4 pb-1">
                       <div className="col-md-5">
                           <div className="input-group mb-3">
                               <div className="input-group-prepend">
@@ -32,7 +32,7 @@ class Home extends React.Component{
                            </select>
                        </div>
                    </div>
-                   <div className="row">
+                   <div className="row pb-4">
                        <div className="col-md-3 mb-4">
                            <Country/>
                         </div>
