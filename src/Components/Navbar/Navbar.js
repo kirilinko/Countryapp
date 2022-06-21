@@ -15,7 +15,7 @@ class Navbar extends React.Component{
                            <a className="navbar-brand text-white fw-bold" href="#" > Where in the world ?</a>
                        
                       <div className="text-end">
-                           Button tog
+                          .
                       </div>
                  
               </div>

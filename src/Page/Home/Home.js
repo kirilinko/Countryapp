@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, withRouter } from "react-router-dom";
 import Navbar from '../../Components/Navbar/Navbar.js';
 import Country from '../../Components/Home/Country.js'; 
 import  '../../Ressources/Style.css'; 
@@ -34,7 +35,9 @@ class Home extends React.Component{
                    </div>
                    <div className="row pb-4">
                        <div className="col-md-3 mb-4">
-                           <Country/>
+                           <Link to="Detail/26">
+                               <Country/>
+                           </Link>
                         </div>
                         <div className="col-md-3 mb-4">
                             <Country/>
