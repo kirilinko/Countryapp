@@ -78,3 +78,11 @@
      background:hsl(209, 23%, 22%);
      border-color:hsl(209, 23%, 22%);
 }
+
+.no-decation{
+     text-decoration: none;
+}
+
+.space-border{
+     padding-left: 4%!important;
+}

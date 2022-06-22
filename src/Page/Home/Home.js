@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from 'axios';
 import Navbar from '../../Components/Navbar/Navbar.js';
 import Country from '../../Components/Home/Country.js';
@@ -65,7 +65,7 @@ const Home=()=> {
                                               { return val; }
                            } }).map((val,key)=>{
                                           return <div className="col-md-3 mb-4 ">
-                                                    <Link to={`Detail/${val.ccn3}`} style={{textDecoration:"none"}}>
+                                                    <Link to={`Detail/${val.ccn3}`} className="no-decation" >
                                                         <Country data={val}/>
                                                     </Link>
                                                  </div>

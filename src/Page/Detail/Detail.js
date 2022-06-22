@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams} from "react-router-dom";
 import Navbar from '../../Components/Navbar/Navbar.js';
 import Loader from '../Loader/Loader.js';
 import  '../../Ressources/Style.css';
@@ -15,8 +15,9 @@ const Detail=()=> {
 
     })
            
-       if(datacountry.flags) { console.log()
-
+       if(datacountry.flags) { 
+         if(datacountry.borders==undefined)
+            {datacountry.borders={'0':'No border country'}}
     	return( 
              <div className="bg-blue-dark pb-4 font-body">
                <Navbar/>
@@ -48,16 +49,19 @@ const Detail=()=> {
                                     </div>
                                </div>
                                <div className="row pb-4">
-                                   <div className="col-md-4">
+                                   <div className="col-md-4 text-start">
                                        <h5>Border Countries: </h5>
                                    </div>
-                                   <div className="col-md-6">
-                                       <div className="row">
-                                           {()=>{ if(datacountry.borders){ Object.values(datacountry.borders).map((border) => {return( 
-                                           <div className=" col-sm mb-2 text-center shadow-effet bg-silver-dark border-contry">
-                                              {border}
-                                           </div>
-                                           )  } )} } }
+                                   <div className="col-md-6 ">
+                                       <div className="row space-border text-start">
+                                           {Object.values(datacountry.borders).map((border) => {
+                                             return(<div className=" col-sm mb-2 text-center shadow-effet bg-silver-dark border-contry ">
+                                                       <Link to={`/Detail/${border}`} className="text-white no-decation" >
+                                                          {border}
+                                                        </Link>
+                                                    </div>
+                                                  
+                                           )  } )} 
 
                                        </div>
                                    </div>

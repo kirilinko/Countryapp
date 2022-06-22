@@ -9,7 +9,7 @@ class Loader extends React.Component{
     		   <Navbar/>
     		      <div className=" container pb-4">
     		      	 <h4 className="text-center pt-4 mt-4">
-    		      	    Merci de patienter 
+    		      	    Please, wait
     		      	    <div class="spinner-border text-primary" role="status">
                             <span class="visually-hidden"> Loading...</span>
                         </div>
