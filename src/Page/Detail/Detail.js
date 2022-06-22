@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link, useParams } from "react-router-dom";
 import Navbar from '../../Components/Navbar/Navbar.js';
-import image from './ballon.webp';
 import  '../../Ressources/Style.css';
 import axios from 'axios';
 const Detail=()=> {
@@ -15,7 +14,7 @@ const Detail=()=> {
 
     })
            
-       if(datacountry.flags) {
+       if(datacountry.flags) { console.log()
 
     	return( 
              <div className="bg-blue-dark pb-4 font-body">
@@ -53,11 +52,11 @@ const Detail=()=> {
                                    </div>
                                    <div className="col-md-6">
                                        <div className="row">
-                                           { Object.values(datacountry.borders).map((border) => {return( 
+                                           {()=>{ if(datacountry.borders){ Object.values(datacountry.borders).map((border) => {return( 
                                            <div className=" col-sm mb-2 text-center shadow-effet bg-silver-dark border-contry">
                                               {border}
                                            </div>
-                                           ) } ) }
+                                           )  } )} } }
 
                                        </div>
                                    </div>

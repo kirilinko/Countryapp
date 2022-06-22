@@ -1,5 +1,4 @@
 import React from 'react';
-import image from './ballon.webp'; 
  
 class Country extends React.Component{
 
@@ -8,15 +7,15 @@ class Country extends React.Component{
     }
 
     render(){
-    	return(<div> 
+    	return(<div className="d-flex justify-content-center"> 
               <div className="card text-white img-country shadow-effet" >
-  <img src={image} className="card-img-top" width="1px" alt="..."/>
+  <img src={`${this.props.data.flags.png}`} className="card-img-top" style={{height:130}} alt="..."/>
   <div className="card-body" >
-    <h5 className="card-title font-800">Germany</h5>
+    <h5 className="card-title font-800">{this.props.data.name.common}</h5>
     <div className="card-text font-14">
-      <span className="font-14b">Population:</span> 81,985,896 <br/>
-      <span className="font-14b">Region:</span> Europe <br/>
-      <span className="font-14b">Capital:</span> Berlin <br/>
+      <span className="font-14b">Population:</span> {this.props.data.population} <br/>
+      <span className="font-14b">Region:</span> {this.props.data.region} <br/>
+      <span className="font-14b">Capital:</span> {this.props.data.capital} <br/>
     </div>
      
   </div>
