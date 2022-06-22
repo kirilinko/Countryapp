@@ -2,12 +2,13 @@ import React, {useState, useEffect} from 'react';
 import { Link, withRouter } from "react-router-dom";
 import axios from 'axios';
 import Navbar from '../../Components/Navbar/Navbar.js';
-import Country from '../../Components/Home/Country.js'; 
+import Country from '../../Components/Home/Country.js';
+import Loader from '../Loader/Loader.js'; 
 import  '../../Ressources/Style.css'; 
 const Home=()=> {
 
     const [data,setData]=useState([]);
-    const [datashow,setDatashow]=useState([]);
+    const [datashow,setDatashow]=useState("");
     const [searchcountry,setSearchcountry]=useState('');
     const [searchContinent,setSearchContinent]=useState('');
     const [searchStatus,setsearchStatus]=useState('');
@@ -26,7 +27,7 @@ const Home=()=> {
     }, []);
 
  
-  if(datashow!=null){
+  if(datashow!=""){
     	return(<div className="bg-blue-dark pb-4 font-body"> 
             <Navbar/>
              <div className="pt-4 pb-4" >
@@ -75,7 +76,7 @@ const Home=()=> {
         </div>
             )
         }
-        else{ return<div>En cours</div>}
+        else{ return<div><Loader/></div>}
   
 
 }

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Link, useParams } from "react-router-dom";
 import Navbar from '../../Components/Navbar/Navbar.js';
+import Loader from '../Loader/Loader.js';
 import  '../../Ressources/Style.css';
 import axios from 'axios';
 const Detail=()=> {
@@ -76,7 +77,7 @@ const Detail=()=> {
    
 
     else{
-        return (<div>En cours</div>)
+        return (<div><Loader/></div>)
     }
  }
 export default Detail
