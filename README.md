@@ -33,5 +33,6 @@ Les utilisateurs peuvent :
 - Propriétés CSS personnalisées
 - Flux de travail axé sur le mobile
 - [React](https://reactjs.org/) - Bibliothèque JS
+- [Axios](https://axios-http.com/docs/intro) - Pour les requêtes
 - [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Pour les styles.
 - [Font Awesome](https://fontawesome.com) - Pour les icones.
