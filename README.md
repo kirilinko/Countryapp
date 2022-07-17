@@ -1,38 +1,38 @@
 ### Evaluation
 
-Les utilisateurs peuvent :
+Users can:
 
-- Voir tous les pays de l'API sur la page d'accueil
-- Rechercher un pays à l'aide d'un champ "entrée".
-- Filtrer les pays par région
-- cliquer sur un pays pour obtenir des informations plus détaillées sur une page séparée
-- Cliquer sur les pays frontaliers sur la page détaillée
+- View all API countries on the home page
+- Search for a country using an "entry" field.
+- Filter countries by region
+- Click on a country to get more detailed information on a separate page
+- Click on the border countries on the detailed page
 
-### Capture d'écran
+### Screenshot
 
 - [Home](screenshot/home.png)
 - [Home-mobile](screenshot/home-mobile.png)
 - [Detail](screenshot/Detail.png)
 - [Detail-mobile](screenshot/Detail-mobile.png)
 
-### Liens
+### Links
 
-- URL de la solution : [https://sewema-test.herokuapp.com/](https://sewema-test.herokuapp.com/)
+- Solution URL: [https://sewema-test.herokuapp.com/](https://sewema-test.herokuapp.com/)
 
-## Mon processus :
+## My process:
 
-- Création architecture
-- Réalisation du font-end Home
-- Réalisation de front-end Detail
-- Integration API Détail
+- Architecture creation
+- Realization of the font-end Home
+- Front-end Detail realization
+- Integration API Detail
 - Integration API Home
 
-### Construit avec
+### Built with
 
-- Balisage sémantique HTML5
-- Propriétés CSS personnalisées
-- Flux de travail axé sur le mobile 
-- [React](https://reactjs.org/) - Bibliothèque JS
-- [Axios](https://axios-http.com/docs/intro) - Pour les requêtes
-- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Pour les styles.
-- [Font Awesome](https://fontawesome.com) - Pour les icones.
+- HTML5 semantic markup
+- Custom CSS properties
+- Mobile-centric workflow 
+- [React](https://reactjs.org/) - JS Library
+- [Axios](https://axios-http.com/docs/intro) - For queries
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - For styles.
+- [Font Awesome](https://fontawesome.com) - For the icons.
