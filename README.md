@@ -17,7 +17,7 @@ Users can:
 
 ### Links
 
-- Solution URL: [https://sewema-test.herokuapp.com/](https://sewema-test.herokuapp.com/)
+- Solution URL: [https://allcountry.herokuapp.com/](https://allcountry.herokuapp.com/)
 
 ## My process:
 
