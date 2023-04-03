@@ -17,7 +17,7 @@ Users can:
 
 ### Links
 
-- Solution URL: [https://allcountry.herokuapp.com/](https://allcountry.herokuapp.com/)
+- Solution URL: [http://pumped-rings.surge.sh/](http://pumped-rings.surge.sh/)
 
 ## My process:
 
